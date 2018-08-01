@@ -1,0 +1,307 @@
+/*CSS Style Sheet*/
+
+#Education{
+    background-color: lightslategray;
+    padding-top: 20px;
+    
+}
+
+#Education:hover{
+    background-color: cadetblue;
+    padding-top: 20px;
+    
+}
+
+#Education h2{
+    color: white;
+    font-family: roboto;
+}
+
+#Education ul{
+    color: whitesmoke;
+    font-family: arial;
+}
+
+.icon1 {
+    color: whitesmoke;
+    padding-right: 10px;
+}
+
+#Skills {
+    background-color: lightgrey;
+    padding-top: 20px;
+    font-family: arial;
+}
+
+#Skills:hover {
+    background-color: cadetblue;
+    padding-top: 20px;
+    font-family: arial;
+    color: whitesmoke;
+}
+
+#Content{
+    background-color: lightslategray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: arial;
+}
+
+#Content:hover{
+    background-color: cadetblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: arial;
+}
+
+#Content h2 {
+    color: whitesmoke;
+    font-family: arial;
+}
+
+#Projects{
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-family: arial;
+}
+
+#Projects:hover{
+    background-color: cadetblue;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-family: arial;
+    color:whitesmoke
+}
+
+.icon2 {
+    color:darkslategrey;
+    padding-right: 5px;
+}
+
+.icon3 {
+    color: whitesmoke;
+    padding-right: 10px;
+}
+
+.icon4 {
+    color: whitesmoke;
+    padding-right: 10px;
+}
+
+.icon5 {
+    color: darkslategrey;
+    padding-right: 10px;
+}
+
+#Hobbies{
+    background-color: lightslategray;
+    padding-top: 20px;
+    font-family: arial;
+
+}
+
+#Hobbies:hover{
+    background-color: cadetblue;
+    padding-top: 20px;
+    font-family: arial;
+
+}
+
+#Hobbies h2{
+    color: white;
+    font-family: arial;
+}
+
+#Hobbies ul {
+    color: whitesmoke;
+    font-family: arial;
+    
+}
+
+#Hobbies a {
+    color: black;
+    font-family: arial;
+    text-decoration: underline;
+}
+
+#nav {
+    background-color: dimgray;
+    height: 50px;
+    font-size: 1.2em;
+    font-family: arial;
+}
+
+/* Nav Unvisited Link */
+nav div a:link{
+    color: whitesmoke;
+}
+
+/* Nav Visited Link */
+nav div a:visited {
+    color: whitesmoke;
+}
+
+/* Nav Mouse Over Link */
+nav div a:hover {
+    color: white;
+    text-decoration:underline;
+    background-color: transparent;
+    padding: 0px;
+}
+
+
+/* Nav Selected Link */
+nav div a:active{
+    color: #909090;
+} 
+
+
+/*Element Selectors*/
+#body{
+    font-family: arial;
+    color: #3B3832;
+}
+
+body{
+    display: none;
+}
+        
+
+#bio { font-size: 18px; 
+    color: #3B3832;
+    font-family: arial;
+
+}
+
+.details div#Education, .details div#Skills, .details #Hobbies{
+    height: 100%;
+    font-family: arial;
+}
+
+/*Contact me*/
+#phone {
+    background-color: slategray;
+    font-family: arial;
+    color: whitesmoke;
+    line-height: 500px;
+}
+
+#phone:hover{
+    background-color: cadetblue;
+    font-family: arial;
+
+}
+
+#email {
+    background-color: slategray;
+    font-family: arial;
+    color: whitesmoke;
+    line-height: 500px;
+}
+
+#email:hover{
+    background-color: cadetblue;
+    font-family: arial;
+
+}
+
+.icon6 {
+    color: darkslategrey;
+    padding-right: 10px;
+}
+
+.icon7 {
+    color: darkslategrey;
+    padding-right: 10px;
+}
+
+.details div#email, .details div#phone {
+    height: 500px;
+    font-family: arial;
+}
+
+/*Project Portfolio*/
+
+.jumbotron {
+    background-color: lightslategray;
+    height: 200px;
+    color: black; 
+}
+
+.jumbotron h1 {
+    color: whitesmoke;
+}
+
+/*Project Portfolio, Card deck 1*/
+
+#projects {
+    background-color: lightgray;
+    padding: 20px;
+    font-family: arial;
+}
+
+#projects h2 {
+    font-size: 20px;
+}
+
+#projects h3 {
+    font-size: 16px;
+}
+
+#projects a {
+    color: whitesmoke;
+    background-color: cadetblue;
+    border color: transparent;
+
+}
+
+#projects a:hover {
+    background-color: teal;
+    color: whitesmoke;
+    border color: transparent;
+}
+
+#projects .card-img-top {
+    width: 10rem;
+    height: auto;
+}
+
+#projects .card {
+    padding: 10px;
+    font-family: arial;
+}
+
+/*Project Portfolio, Card deck 2*/
+
+#projects2 {
+    background-color: lightgray;
+    padding: 20px;
+    font-family: arial;
+}
+
+#projects2 {
+    padding: 20px;
+}
+
+#projects2 a {
+    color: whitesmoke;
+    background-color: cadetblue;
+    border color: transparent;
+
+}
+
+#projects2 a:hover {
+    background-color: teal;
+    color: whitesmoke;
+    border color: transparent;
+}
+
+#projects2 .card-img-top {
+    width: 10rem;
+    height: auto;
+}
+
+#projects2 .card {
+    padding: 10px;
+}
